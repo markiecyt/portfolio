@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "markie",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack --progress --config webpack.config.js --watch --color --devtool source-map  --mode=development",
+    "build": "webpack --config ./webpack.config.js --color --bail"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.4",
+    "css-loader": "^6.7.1",
+    "postcss": "^8.4.12",
+    "postcss-import": "^14.0.2",
+    "postcss-loader": "^6.2.1",
+    "style-loader": "^3.3.1",
+    "tailwindcss": "^3.0.23",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
