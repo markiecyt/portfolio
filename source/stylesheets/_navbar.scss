@@ -1,0 +1,22 @@
+.navbar-choi {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 8px 16px;
+  justify-content: space-between;
+  background: white;
+  .navbar-links {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    a {
+      text-decoration: none;
+    }
+  }
+  .navbar_img {
+    width: 40px;
+  }
+}
